@@ -1,16 +1,20 @@
-## Hi there 👋
+# Tiny Galaxy Tales — GitHub Pages
 
-<!--
-**tiny-galaxy-tales/tiny-galaxy-tales** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Quick deploy
+1. Create a new GitHub repo, e.g. `tiny-galaxy-tales`
+2. Upload `index.html` from this folder.
+3. In the repo: **Settings → Pages → Build and deployment**
+   - Source: `Deploy from a branch`
+   - Branch: `main` and `/ (root)`
+4. Open the URL shown (e.g. `https://<username>.github.io/tiny-galaxy-tales/`).
 
-Here are some ideas to get you started:
+## Optional: Custom domain later
+- Add a `CNAME` file in the repo root with a single line: `tinygalaxytales.com`
+- At Squarespace (Domains → tinygalaxytales.com → DNS), add CNAME:
+  - `www` → `<username>.github.io`
+  - (optional) Forward apex to `www`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Update links
+- Instagram: `https://instagram.com/tinygalaxytales`
+- YouTube: `https://youtube.com/@tiny_galaxy_tales?si=jBPXru1avQ6m-LUj`
+- Newsletter: replace the Formspree `action` value.
